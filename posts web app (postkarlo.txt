@@ -1,0 +1,27 @@
+ posts web app (postkarlo.com)
+
+ require pakages
+  express mongoose nodemon cookie-parser cookie jsonwebtoken dotenv bcrypt
+
+ user
+   1. create 
+   2. username,password,email,age,post[ids(postid)]
+   3. password hash (bcrypt(gensalt,hash))
+   4. setCookie(jwt(email),cookie parser)
+
+   5. login(email,password) 
+   6. compare password(bcrypt(compare))
+   7. setCookie(jwt(email),cookie parser)
+   8. varify cookie
+
+
+
+   9.logout
+   10.middleware(route ko secure karege)
+
+
+   11. login => page =>form=> post=>upload
+   12. page allposts
+   13. profile => post create => update and delete
+
+ post
